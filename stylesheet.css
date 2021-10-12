@@ -44,6 +44,12 @@ body {
 }
 .project video {
     margin: 2%;
+    width: 85%;
+    height: auto;
+}
+.project img {
+    width: 100%;
+    height: auto;
 }
 
 .enumlist {
