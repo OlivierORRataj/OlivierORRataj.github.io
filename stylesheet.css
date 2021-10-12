@@ -28,6 +28,10 @@ body {
     display: inline;
 }
 
+.variablename a {
+    color: #D69D85
+}
+
 .skills {
     margin-bottom: 10%;
     margin-top: 5%;
@@ -36,6 +40,15 @@ body {
 .project {
     margin-top: 2%;
     background-color: #1E1E1E;
+}
+
+.project h3, p {
+    padding: 2%;
+}
+
+.btn:hover {
+    border: 1px inset #569cd6;
+    color: #5ca4e0;
 }
 
 .project a {
@@ -55,6 +68,10 @@ body {
 .enumlist {
     list-style-type: none;
     margin-bottom: 0px;
+}
+
+.enumlist li {
+    word-wrap: break-word;
 }
 .codecomment {
     color: #518648;
