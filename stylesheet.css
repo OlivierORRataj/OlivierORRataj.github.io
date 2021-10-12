@@ -37,12 +37,21 @@ body {
     margin-top: 5%;
 }
 
+.contactlist {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 .project {
     margin-top: 2%;
     background-color: #1E1E1E;
 }
 
-.project h3, p {
+h3.project {
+    padding: 2%;
+}
+
+p.project {
     padding: 2%;
 }
 
@@ -51,27 +60,36 @@ body {
     color: #5ca4e0;
 }
 
-.project a {
-    margin-bottom: 2%;
+.aboutme {
+    padding-top: 5%;
+}
+
+a.btn {
     color: #569cd6;
 }
+
 .project video {
     margin: 2%;
     width: 85%;
     height: auto;
 }
+
 .project img {
     width: 100%;
     height: auto;
 }
 
-.enumlist {
+.list {
     list-style-type: none;
     margin-bottom: 0px;
 }
 
-.enumlist li {
+.list li {
     word-wrap: break-word;
+}
+
+.contactlist ul {
+    padding: 0;
 }
 .codecomment {
     color: #518648;
