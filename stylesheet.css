@@ -1,12 +1,18 @@
 body {
-    background-color: #2D2D30;
     color: #CACACA;
     font-family: 'Consolas';
+    overflow: auto;
 }
 
-.container-fluid {
+.firstcontainer {
     background-color: #252526;
-    margin: 2%;
+    padding: 5%;
+}
+
+.secondcontainer {
+    background-color: #2D2D30;
+    padding: 5%
+    
 }
 
 .codingblock {
@@ -14,7 +20,7 @@ body {
 }
 
 .datatype {
-    color: #007ACC;
+    color: #436886;
     display: inline;
 }
 
@@ -33,5 +39,26 @@ body {
 }
 .codecomment {
     color: #518648;
-    display: inline;
+}
+
+
+/* Typing animation */
+
+.typinganim h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    animation: 
+    typing 3.5s steps(40, end),
+    cursor .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes cursor {
+    from, to {border-color: transparent} 
+    50% {border-color: green;}
 }
