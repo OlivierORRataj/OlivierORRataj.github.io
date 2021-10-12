@@ -33,6 +33,19 @@ body {
     margin-top: 5%;
 }
 
+.project {
+    margin-top: 5%;
+    background-color: #1E1E1E;
+}
+
+.project a {
+    margin-bottom: 2%;
+    color: #569cd6;
+}
+.project video {
+    margin: 2%;
+}
+
 .enumlist {
     list-style-type: none;
     margin-bottom: 0px;
