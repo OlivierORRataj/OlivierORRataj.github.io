@@ -1,0 +1,37 @@
+body {
+    background-color: #2D2D30;
+    color: #CACACA;
+    font-family: 'Consolas';
+}
+
+.container-fluid {
+    background-color: #252526;
+    margin: 2%;
+}
+
+.codingblock {
+    background-color: #1E1E1E;
+}
+
+.datatype {
+    color: #436886;
+    display: inline;
+}
+
+.variablename {
+    display: inline;
+}
+
+.skills {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.enumlist {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+.codecomment {
+    color: #518648;
+    display: inline;
+}
