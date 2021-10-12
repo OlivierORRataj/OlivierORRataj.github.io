@@ -60,8 +60,11 @@ p.project {
     color: #5ca4e0;
 }
 
-.project a {
-    margin-bottom: 2%;
+.aboutme {
+    padding-top: 5%;
+}
+
+a.btn {
     color: #569cd6;
 }
 
