@@ -4,6 +4,10 @@ body {
     overflow: auto;
 }
 
+a {
+    text-decoration: none
+}
+
 .firstcontainer {
     background-color: #252526;
     padding: 5%;
