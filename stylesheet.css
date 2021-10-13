@@ -72,13 +72,13 @@ a.btn {
     color: #569cd6;
 }
 
-.project video {
+.media video {
     margin: 2%;
     width: 85%;
     height: auto;
 }
 
-.project img {
+.media img {
     width: 100%;
     height: auto;
 }
