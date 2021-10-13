@@ -51,11 +51,11 @@ a {
     background-color: #1E1E1E;
 }
 
-h3.project {
+.project h3 {
     padding: 2%;
 }
 
-p.project {
+.project p{
     padding: 2%;
 }
 
